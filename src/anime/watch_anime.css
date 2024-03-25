@@ -1,0 +1,91 @@
+.Watch_anime {
+    width: 66%;
+    margin-left: 17%;
+    margin-right: 17%;
+}
+
+.Watch_anime h1 {
+    font-size: 2rem;
+}
+.Watch_anime iframe {
+    width: 100%;
+    height: 60vh;
+}
+
+.ban {
+    width: 100%;
+    background-position-y: 60%;
+}
+
+.carousel_out_episode {
+    overflow-x: auto;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.carousel_in_episode {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.content_episode {
+    cursor: pointer;
+    padding: 20px;
+    flex: 0 0 auto;
+    margin-right: 15px;
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.6s ease-in-out;
+    box-shadow: 0 4px 6px rgba(32, 32, 32, 0.2);
+    background-color: rgb(53, 52, 52);
+}
+
+.item_carousel_episode {
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 1900px) {
+    .Watch_anime iframe {
+        height: 52vh;
+    }
+}
+
+@media only screen and (max-width: 1700px) {
+    .Watch_anime iframe {
+        height: 48vh;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .Watch_anime iframe {
+        height: 47vh;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .Watch_anime iframe {
+        height: 46vh;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .Watch_anime {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .Watch_anime iframe {
+        height: 50vh;
+    }
+    .Watch_anime h1 {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .Watch_anime h1 {
+        font-size: 1.2rem;
+    }
+}

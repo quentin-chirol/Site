@@ -1,0 +1,88 @@
+.carousel_out {
+    overflow-x: auto;
+    overflow: hidden;
+    padding: 40px 0;
+}
+
+.carousel_in {
+    display: flex;
+    position: relative;
+}
+
+.content {
+    flex: 0 0 auto;
+    margin-right: 2%;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.6s ease-in-out;
+    box-shadow: 0 4px 6px rgba(15, 15, 15, 0.2);
+}
+
+.item_carousel {
+    width: 100%;
+    height: auto;
+}
+
+.next,
+.previous {
+    position: absolute;
+    width: 2%;
+    margin: 0 0 10px 0;
+    background-color: rgba(0, 0, 0, 0.473);
+    top: 0;
+    cursor: pointer;
+    height: 100%; /* Equal height to content */
+}
+
+.next {
+    right: 0;
+}
+
+.previous {
+    left: 0;
+}
+
+.next:hover,
+.previous:hover {
+    background-color: rgba(0, 0, 0, 0.712);
+}
+
+.item_carousel {
+    transition: transform 0.4s ease-in-out;
+    width:100%;/*To occupy image full width of the container and also fit inside the container*/
+    max-width:100%;/*To fit inside the container alone with natural size of the image ,Use either of these width or max-width based on your need*/
+    height:100%;
+}
+
+.item_carousel:hover {
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width: 1100px) {
+    .content {
+        margin-right: 3%;
+        width: 21%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .content {
+        margin-right: 3%;
+        width: 24%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .content {
+        margin-right: 3%;
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .content {
+        margin-right: 3%;
+        width: 30%;
+    }
+}

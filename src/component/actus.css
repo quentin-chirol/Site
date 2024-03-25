@@ -1,0 +1,32 @@
+.actus {
+    display: block;
+    overflow: hidden;
+    border: 30px solid aliceblue;
+}
+
+.slide {
+    display: flex;
+    list-style: none;
+    animation: actus_slide 15s infinite ease-in-out;
+    width: 100%;
+}
+
+.slide_li {
+    width: 100%;
+    flex-shrink: 0;
+}
+
+@keyframes actus_slide {
+    0%, 36% {
+        transform: translateX(0);
+    }
+    40%, 66% {
+        transform: translateX(-100%);
+    }
+    80%, 85% {
+        transform: translateX(-200%);
+    }
+    100% {
+        transform: translateX(-300%);
+    }
+}

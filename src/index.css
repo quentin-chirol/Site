@@ -1,0 +1,20 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+input {
+    border: none;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    background: none;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}

@@ -1,0 +1,35 @@
+.ul {
+    list-style-type: none;
+    overflow: hidden;
+    color: rgb(247, 245, 245);
+    background-color: #1D3461;
+}
+
+.li {
+    display: block;
+    text-align: center;
+    padding: 20px 15px;
+    text-decoration: none;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.li_bouton {
+    display: block;
+    padding: 10px 15px; 
+}
+
+
+.bouton {
+    background-color: aliceblue; 
+    color: #8CBCB9; 
+    padding: 10px 15px; 
+    border-radius: 50px; 
+    border: none;
+}
